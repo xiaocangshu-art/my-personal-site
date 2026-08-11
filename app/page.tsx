@@ -207,12 +207,10 @@ export default function Home() {
           </p>
           <div className="hero-tags" aria-label="核心能力">
             {[
-              "用户研究",
-              "需求分析",
-              "产品策略",
-              "软硬件产品设计",
-              "跨团队落地",
-              "AI 辅助开发",
+              "用户产品",
+              "策略产品",
+              "AI产品",
+              "数据分析",
             ].map((tag) => (
               <span key={tag}>{tag}</span>
             ))}
