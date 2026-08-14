@@ -11,23 +11,22 @@ const navItems = [
 
 const experiences = [
   {
-    period: "2025/09—2025/11",
-    company: "海康威视 · 萤石网络",
-    department: "云服务产品部",
-    role: "体验设计师",
-    points: [
-      "参与萤石EZVIZ智能家居APP迭代，负责“智能安防与首页”模块的用户分析、PRD 拆解、信息架构及交互方案。",
-      "基于行为数据与用户反馈定位功能边界和使用路径问题，协同产品、视觉与研发完成评审、开发跟进及验收，推动首页框架、动态布局与模块化方案上线。",
-    ],
-  },
-  {
-    period: "2025/04-至今",
+    period: "2026/04-08",
     company: "浙江自贸区（宁波）人力资源赋能研究院",
     department: "服务设计部",
     role: "研究助理",
     points: [
-      "在导师带领下，与人社部、社区与研究院合作，面向制造业企业 HR 与员工体验场景开展用户研究，组织企业、社区、人社干部开展共创工作坊创新方案迭代与项目落地，相关实践获评“2025 全国用户体验创新典型案例”。",
-      "2026年3月于赋能研究院实习，同时开展毕业论文的开题与调研。",
+      "制造业 HR 与员工体验研究：面向制造业企业 HR 与员工体验场景开展定性与定量用户研究，通过访谈、调研及参与式观察洞察企业与员工痛点和需求，并将研究洞察转化为研究院、人社可研讨的创新议题。",
+      "服务设计策略与项目落地：整合企业、社区、人社部门等多方利益相关方，运用服务设计方法构建兼顾创新方案持续产出与 HR 创新能力提升的赋能机制，负责项目管理，推动需求洞察、共创策划、方案迭代与实践落地。",
+    ],
+  },
+  {
+    period: "2025/09-11",
+    company: "海康威视 · 萤石网络",
+    department: "云服务产品部",
+    role: "体验设计师",
+    points: [
+      "EZVIZ萤石APP迭代：在项目启动期间，主负责产品「首页与智能安防模块」，围绕海外用户使用行为与核心场景开展业务场景分析、竞品分析、用户数据分析、需求整理，梳理信息架构并输出交互文档；协同产品、视觉与研发完成方案评审、开发跟进及验收，推动首页框架重构、动态布局与模块化方案，现模块已上线。",
     ],
   },
   {
@@ -36,8 +35,8 @@ const experiences = [
     department: "EC",
     role: "产品策划",
     points: [
-      "参与星巴克圣诞营销与必胜客排班系统两个数字化项目，负责客户需求梳理、用户研究、业务流程拆解及方案策划。",
-      "将业务需求转化为功能框架、用户流程与交互原型，协同设计团队完成方案交付；其中星巴克项目团队方案成功中标，必胜客排班系统设计已上线。",
+      "星巴克圣诞营销项目：围绕客户业务目标开展需求梳理与用户研究，拆解营销场景及业务流程，主导功能框架、用户流程与交互原型，参与撰写产品需求文档（PRD），并协同设计团队完成方案输出，方案成功中标，并达成与星巴克中国的长期合作。",
+      "必胜客排班系统：项目针对提升 B 端复杂操作系统的易用性，开展业务梳理、门店排班用户访谈、竞品分析、使用流程以及框架重构，负责部分功能方案与交互原型设计，方案后经过 A/B 测试，用户操作成功率达 100%。",
     ],
   },
   {
@@ -46,8 +45,7 @@ const experiences = [
     department: "家具设计部",
     role: "产品设计师",
     points: [
-      "根据品牌定位及规划开发新产品，参与家具产品从市场分析、产品定位、产品设计到上市的全流程，覆盖价格带分析、材料选择及成本控制。",
-      "协同供应商推进打样与样品测试，完成 2 款产品上市，累计销售额超 200 万元。",
+      "家具新品开发与设计：基于品牌定位与产品规划，开展市场及价格带分析，结合目标用户需求推进产品定义、材料选择与成本控制；协同供应商完成打样、样品测试及方案迭代，参与产品从市场定位到上市的完整流程，最终完成 2 款产品上市，累计销售额超 200 万元，其中时序书架产品销量位居店铺销量前三。",
     ],
   },
 ];
@@ -114,7 +112,7 @@ const projects = [
     category: "需求梳理 · 用户访谈 · 交互原型",
     description:
       "针对门店角色多、兼职比例高、班次变化频繁以及原 PC 系统可用性不足的问题，梳理店长和值班经理的排班流程，将业务需求转化为移动端信息框架与编辑交互。",
-    result: "面向高密度排班场景提升可读性与操作效率",
+    result: "经过A/B test，用户操作成果率高达100%，现模块已上线",
     images: [
       "/assets/projects/pizza-details/page-1.jpg",
       "/assets/projects/pizza-details/page-6.jpg",
@@ -148,11 +146,11 @@ const projects = [
   {
     index: "06",
     title: "弗兰卡学习文化服务体验设计",
-    date: "服务设计研究",
+    date: "2026",
     category: "深度访谈 · 扎根理论 · 用户旅程 · 服务蓝图",
     description:
       "从员工动力不足、学习转化困难与经理赋能缺失出发，识别学习旅程中的动机、转化与价值三大断裂带，构建“共学伙伴”学习生态与可持续的学习增强回路。",
-    result: "完成用户旅程重塑、服务蓝图与共创工具设计",
+    result: "方案经MCD工作坊体验优化试点，形成集团内可复用的学习设计方法",
     images: [
       "/assets/projects/learning-research.jpg",
       "/assets/projects/learning-blueprint.jpg",
@@ -169,32 +167,35 @@ const skillGroups = [
     title: "设计表达",
     items: [
       { name: "Figma", description: "交互原型与设计系统", icon: "/assets/skills/figma.png" },
-      { name: "3ds Max", description: "概念可视化", icon: "/assets/skills/3ds-max.webp" },
-      { name: "KeyShot", description: "3D 渲染", icon: "/assets/skills/keyshot.png" },
-      { name: "Midjourney", description: "风格探索与提效", icon: "/assets/skills/midjourney.png" },
+      { name: "墨刀", description: "快速原型与交互演示", icon: "/assets/skills/modao.webp" },
+      { name: "PS", description: "视觉设计与图像处理", icon: "/assets/skills/photoshop.png" },
+      { name: "AE", description: "动效设计与视频表达", icon: "/assets/skills/after-effects.png" },
     ],
   },
   {
     index: "02",
-    title: "空间与交互",
-    items: [
-      { name: "Unity", description: "场景搭建，游戏化交互探索", icon: "/assets/skills/unity.png" },
-    ],
-  },
-  {
-    index: "03",
     title: "AI 辅助开发",
     items: [
+      { name: "Unity", description: "场景搭建，游戏化交互探索", icon: "/assets/skills/unity.png" },
       { name: "Cursor", description: "AI 辅助编程与原型验证", icon: "/assets/skills/cursor.png" },
       { name: "Codex", description: "代码生成与自动化实现", icon: "/assets/skills/codex.png" },
     ],
   },
   {
-    index: "04",
+    index: "03",
     title: "提效工具",
     items: [
       { name: "ChatGPT", description: "信息整理与方案推演", icon: "/assets/skills/chatgpt.png" },
       { name: "Claude", description: "长文理解与内容协作", icon: "/assets/skills/claude.png" },
+    ],
+  },
+  {
+    index: "04",
+    title: "产品设计",
+    items: [
+      { name: "3ds Max", description: "三维建模与概念可视化", icon: "/assets/skills/3ds-max.webp" },
+      { name: "KeyShot", description: "产品效果图渲染", icon: "/assets/skills/keyshot.png" },
+      { name: "Midjourney", description: "概念风格探索与方案提效", icon: "/assets/skills/midjourney.png" },
     ],
   },
 ];
@@ -299,10 +300,15 @@ export default function Home() {
           <p className="eyebrow">Product Manager · Hangzhou</p>
           <h1>
             杜文慧
-            <span>Product Manager / 产品经理</span>
+            <span>意向岗位：产品经理 / 体验设计师</span>
           </h1>
           <p className="hero-intro">
-            我有着丰富的用户研究、需求分析、软硬件产品设计及跨团队落地经验，主导参与过实体产品上市、海外 App 项目重构与 AI 辅助 Demo 开发等项目
+            <strong>我的优势：</strong>
+            具备大厂项目协作及软硬件产品实践经历，擅长通过市场分析、用户研究与数据分析挖掘需求，熟悉PRD、原型设计、评审协作及产品落地流程，兼具工业设计背景与用户体验视角。
+          </p>
+          <p className="hero-capabilities">
+            <strong>专业能力：</strong>
+            产品经理向 — 定性定量研究 / PRD / 墨刀 / Excel / SQL；体验设计向 — Figma / codex / cursor / PS / AE
           </p>
           <div className="hero-tags" aria-label="核心能力">
             {[
@@ -423,9 +429,20 @@ export default function Home() {
                 </div>
               </div>
               <ul>
-                {item.points.map((point) => (
-                  <li key={point}>{point}</li>
-                ))}
+                {item.points.map((point) => {
+                  const separatorIndex = point.indexOf("：");
+
+                  if (separatorIndex === -1) {
+                    return <li key={point}>{point}</li>;
+                  }
+
+                  return (
+                    <li key={point}>
+                      <strong>{point.slice(0, separatorIndex + 1)}</strong>
+                      {point.slice(separatorIndex + 1)}
+                    </li>
+                  );
+                })}
               </ul>
             </article>
           ))}
@@ -514,7 +531,7 @@ export default function Home() {
           <div className="skills-area-heading">
             <p className="panel-index">A / Skills</p>
             <h3>技能</h3>
-            <p>从设计表达、空间交互到 AI 辅助开发的日常工作工具。</p>
+            <p>覆盖设计表达、AI 辅助开发、效率协同与产品设计的日常工作工具。</p>
           </div>
 
           <div className="skill-group-list">

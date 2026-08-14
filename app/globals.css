@@ -229,10 +229,30 @@ button {
 
 .hero-intro {
   max-width: 670px;
-  margin: 28px 0 24px;
+  margin: 28px 0 0;
   color: #48463e;
-  font-size: clamp(17px, 1.25vw, 20px);
+  font-size: clamp(16px, 1.12vw, 18px);
   line-height: 1.75;
+  text-wrap: pretty;
+}
+
+.hero-intro strong,
+.hero-capabilities strong {
+  color: var(--ink);
+  font-family: var(--serif);
+  font-weight: 600;
+}
+
+.hero-capabilities {
+  max-width: 670px;
+  margin: 16px 0 24px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  color: var(--soft-ink);
+  font-size: clamp(12px, 0.9vw, 14px);
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-wrap: pretty;
 }
 
 .hero-tags {
@@ -634,6 +654,11 @@ button {
   margin-bottom: 10px;
   padding-left: 16px;
   font-size: 14px;
+}
+
+.experience-item li strong {
+  color: var(--paper);
+  font-weight: 650;
 }
 
 .experience-item li::before {
@@ -1192,7 +1217,7 @@ button {
 
 .skill-group {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 180px minmax(0, 1fr);
   gap: 28px;
   padding: 30px 0;
   border-bottom: 1px solid var(--line);
@@ -1219,6 +1244,7 @@ button {
 }
 
 .skill-card-grid {
+  min-width: 0;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
@@ -1230,6 +1256,10 @@ button {
 
 .skill-card-grid-2 {
   grid-template-columns: repeat(2, minmax(190px, 0.32fr));
+}
+
+.skill-card-grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .tool-card {
@@ -1281,7 +1311,9 @@ button {
   color: var(--soft-ink);
   font-size: 11px;
   line-height: 1.5;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
 }
 
 .awards-area {
@@ -1622,7 +1654,11 @@ button {
   }
 
   .hero-intro {
-    font-size: 16px;
+    font-size: 15px;
+  }
+
+  .hero-capabilities {
+    font-size: 13px;
   }
 
   .hero-actions {
@@ -1818,7 +1854,8 @@ button {
 
   .skill-card-grid,
   .skill-card-grid-1,
-  .skill-card-grid-2 {
+  .skill-card-grid-2,
+  .skill-card-grid-3 {
     grid-template-columns: none;
     grid-auto-flow: column;
     grid-auto-columns: minmax(190px, 62vw);
@@ -1943,7 +1980,8 @@ button {
 
   .skill-card-grid,
   .skill-card-grid-1,
-  .skill-card-grid-2 {
+  .skill-card-grid-2,
+  .skill-card-grid-3 {
     grid-auto-columns: minmax(176px, 76vw);
   }
 
